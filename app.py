@@ -125,9 +125,9 @@ def check_attendance(user_id, password, program_name, semester_name, subject_cod
                     )
 
         # WhatsApp Group ID (Find from WhatsApp group URL)
-        # group_id = "Ewts7wJODiY5Es3N6S4I00"  # Loyola Parents group ID
+        group_id = "Ewts7wJODiY5Es3N6S4I00"  # Loyola Parents group ID
         # absent test group
-        group_id = "FSDhZVYl73Z4hWaXPuLUXe"
+        #group_id = "FSDhZVYl73Z4hWaXPuLUXe"
 
         # Send message to WhatsApp Group
         kit.sendwhatmsg_to_group_instantly(group_id, message)
